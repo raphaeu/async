@@ -4,12 +4,11 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.0",
-        "phpunit/php-timer": "^2.1"
+        "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
-            "raphaeu\\": "src/"
+            "async\\": "src/"
         }
     }
 }

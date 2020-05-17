@@ -7,7 +7,7 @@
  */
 require __DIR__ . '/../vendor/autoload.php';
 
-use \raphaeu\Task;
+use \async\Task;
 
 $task1 = new Task("php /tmp/a.php");
 $task2 = new Task("php /tmp/a.php");
@@ -15,7 +15,7 @@ $task3 = new Task("php /tmp/a.php");
 $task4 = new Task("php /tmp/a.php");
 
 
-$async = new \raphaeu\Async();
+$async = new \async\Async();
 
 $async->addTask($task1);
 $async->addTask($task2);

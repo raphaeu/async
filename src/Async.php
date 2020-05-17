@@ -7,7 +7,7 @@ namespace raphaeu;
  * Date: 16/05/20
  * Time: 12:25
  */
-namespace raphaeu;
+namespace async;
 
 class Async
 {
