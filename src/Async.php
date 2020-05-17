@@ -33,7 +33,7 @@ class Async
         $running =  0;
         foreach ($this->tasks as $task) {
             if ($task->run($this->path)) {
-                $running =  1;
+                $running++;
             }
         }
         return $running;
