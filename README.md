@@ -45,14 +45,17 @@ $async->addTask($task3);
 while ($async->hasDo())
 {
     usleep(250);
-    echo $task1->getResult();
 }
+
+echo $task1->getResult().PHP_EOL;
+echo $task2->getResult().PHP_EOL;
+echo $task3->getResult().PHP_EOL;
 ```
 #### Arquivo do teste assíncrono <B>randTimer.php</b>
 ```php
 <?php
-  usleep(rand(500, 2000));
-  echo timer();
+  sleep(rand(1, 5));
+  echo time();
 ```
 
 
