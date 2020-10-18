@@ -11,7 +11,7 @@ Fazer resquisições assíncronas com PHP de forma fácil e eficiente.
 Requisitos
 ------------
 
-  - [PHP](https://php.net) >= 5.6
+  - [PHP](https://php.net) >= 7.0
 
 Instalando com composer
 -----------------------
