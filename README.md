@@ -42,14 +42,18 @@ $async->addTask($task2);
 $async->addTask($task3);
 
 // Rodando tarefas assíncronas
-while ($async->hasDo())
+while ($totalOk = $async->hasDo())
 {
+    echo "Rodando: ".((count($async->getTasks()) - $totalOk) + 1)."/". count($async->getTasks()) ."\r";
     usleep(250);
 }
 
-echo $task1->getResult().PHP_EOL;
-echo $task2->getResult().PHP_EOL;
-echo $task3->getResult().PHP_EOL;
+// Pegando resultados das tarefas
+foreach ($async->getTasks() as $task)
+{
+    echo PHP_EOL. $task->getResult();
+}
+
 ```
 #### Arquivo do teste assíncrono <B>randTimer.php</b>
 ```php
