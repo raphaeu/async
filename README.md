@@ -72,9 +72,9 @@ A lista de mudanças voce pode encontrar na página [GitHub Releases](https://gi
 Soluções de problemas
 ---------------------
 
-Por favor, reporte os bugs para [GitHub Issue Tracker](https://github.com/PHLAK/Colorizer/issues).
+Por favor, reporte os bugs para [GitHub Issue Tracker](https://github.com/raphaeu/async/issues).
 
 Copyright
 ---------
 
-Este projeto está licenciado sob a [MIT License](https://github.com/PHLAK/Colorizer/blob/master/LICENSE).
+Este projeto está licenciado sob a [MIT License](https://github.com/raphaeu/async/blob/master/LICENSE).
