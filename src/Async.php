@@ -28,6 +28,7 @@ class Async
     {
         return $this->tasks;
     }
+    
     public function hasDo()
     {
         $running =  0;

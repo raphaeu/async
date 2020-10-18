@@ -29,6 +29,16 @@ class Task
         return $this->result;
     }
 
+    public function isDone()
+    {
+        return $this->running===0?true:false;
+    }
+
+    public function isRunning()
+    {
+        return $this->running==1?true:false;
+    }
+
     public function run($path)
     {
         if (is_null($this->running) )

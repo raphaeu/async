@@ -23,8 +23,24 @@ $async->addTask($task2);
 $async->addTask($task3);
 $async->addTask($task4);
 
-
-while ($async->hasDo())
+while ($totalOk = $async->hasDo())
 {
+
+    $isRunnning = $isDone = '';
+
+    foreach ($async->getTasks() as $task)
+    {
+        $isRunnning .=  $task->isRunning()?'R':'.';
+        $isDone .=  $task->isDone()?'D':'.';
+
+    }    
+    echo "Rodando: {$isRunnning} {$isDone} ".((count($async->getTasks()) - $totalOk))."/". count($async->getTasks()) ."\r";
     usleep(250);
+
+}
+
+
+foreach ($async->getTasks() as $task)
+{
+    echo PHP_EOL. $task->getResult();
 }
