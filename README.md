@@ -1,7 +1,7 @@
 async
 =========
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/phlak/colorizer.svg)](https://packagist.org/packages/raphaeu/async)
+[![Latest Stable Version](https://img.shields.io/packagist/v/raphaeu/async)](https://packagist.org/packages/raphaeu/async)
 [![Total Downloads](https://img.shields.io/packagist/dt/raphaeu/async)](https://packagist.org/packages/raphaeu/async)
 [![Author](https://img.shields.io/badge/author-raphaeu-blue.svg)](https://www.linkedin.com/in/rafael-aguiar-74824922/)
 [![License](https://img.shields.io/github/license/raphaeu/async)](https://packagist.org/packages/raphaeu/async)
