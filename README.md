@@ -6,7 +6,7 @@ async
 [![Author](https://img.shields.io/badge/author-raphaeu-blue.svg)](https://www.linkedin.com/in/rafael-aguiar-74824922/)
 [![License](https://img.shields.io/github/license/raphaeu/async)](https://packagist.org/packages/raphaeu/async)
 
-Fazer resquisições assíncronas com PHP de forma fácil e eficiente.
+Fazer resquisições multitask assíncronas com PHP de forma fácil e eficiente.
 
 Requisitos
 ------------
